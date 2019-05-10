@@ -8,7 +8,7 @@ Successful response will have a following form
 ```json
 {
 	"results": [ 
-		{'name': 'name of the repository within an organization with higest stars', 'stars': number of stars for that repository}
+		{"name": "name of the repository within an organization with higest stars", 'stars': number of stars for that repository}
 		{'name': 'name of the repository with second higest number of stars', 'stars': number of stars for that repository}
 		{'name': 'name of the repository with third higest number of stars', 'stars': number of stars for that repository}
 	]
