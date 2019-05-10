@@ -8,9 +8,9 @@ Successful response will have a following form
 ```json
 {
 	"results": [ 
-		{"name": "name of the repository within an organization with higest stars", 'stars': number of stars for that repository}
-		{'name': 'name of the repository with second higest number of stars', 'stars': number of stars for that repository}
-		{'name': 'name of the repository with third higest number of stars', 'stars': number of stars for that repository}
+		{"name": "name of the repository within an organization with higest stars", "stars": number of stars for that repository}
+		{"name": "name of the repository with second higest number of stars", "stars": number of stars for that repository}
+		{"name": "name of the repository with third higest number of stars", "stars": number of stars for that repository}
 	]
 }
 ```
@@ -20,7 +20,7 @@ If an organization have less than 3 repositories then the response will that man
 Unsuccessful response will have the following form
 ```json
 {
-	"message": 'Error message'
+	"message": "Error message"
 }
 ```
 
@@ -35,6 +35,6 @@ Unsuccessful response will have the following form
 
 ```json
 {
-	'org': 'github-organization-id'
+	"org": "github-organization-name"
 }
 ```
